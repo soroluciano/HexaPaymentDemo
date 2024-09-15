@@ -8,6 +8,8 @@
 - **Extensibility**: Easily extendable by adding new adapters for different payment providers or new user interfaces (e.g., REST APIs, graphical UIs).
 - **Testability**: With clear separation of concerns, unit and integration testing becomes straightforward.
 - **Scalability**: The design encourages a clear separation between business logic and external details, making it easier to grow the system with new features.
+- **Containerization**: The project includes **Docker** support for easy setup and deployment across different environments.
+
 
 ## Architecture
 
@@ -41,14 +43,14 @@ src/
 
 - **Java**: Primary language for implementation.
 - **Spring Boot**: Framework for building applications with dependency injection support.
-- **Maven/Gradle**: Build tool for project management and dependency handling.
+- **Maven**: Build tool for project management and dependency handling.
 - **REST API**: For external interaction with the system.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/HexaPaymentDemo.git
+   git clone https://github.com/soroluciano/HexaPaymentDemo.git
    ```
 2. Navigate to the project directory:
    ```bash
