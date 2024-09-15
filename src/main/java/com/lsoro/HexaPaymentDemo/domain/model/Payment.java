@@ -1,6 +1,5 @@
 package com.lsoro.HexaPaymentDemo.domain.model;
 
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

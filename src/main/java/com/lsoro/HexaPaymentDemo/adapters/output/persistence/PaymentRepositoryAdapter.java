@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class PaymentRepositoryAdapter implements PaymentRepository {
 
-    private PaymentRepositoryJPA paymentRepositoryJPA;
+    private final PaymentRepositoryJPA paymentRepositoryJPA;
 
     public PaymentRepositoryAdapter(PaymentRepositoryJPA paymentRepositoryJPA) {
         this.paymentRepositoryJPA = paymentRepositoryJPA;
